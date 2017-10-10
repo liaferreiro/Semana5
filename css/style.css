@@ -1,0 +1,251 @@
+/*font-family: 'Montserrat', sans-serif;*/
+
+.navbar-brand{
+font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	text-decoration: none;
+    position: relative;
+    padding-left: 1.5%;
+	color: white;
+margin-left: -2%;
+    background-color: #267326;
+    width: 27%;
+}
+
+.navbar-brand:hover {
+  color:white;
+}
+
+
+.navbar2 {
+	margin-left: 40%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.1em;
+padding: 1%;
+	text-decoration: none;
+	
+}
+
+.navbar2 a{
+	color: white;
+    border-left: 1.5px solid white;
+}
+
+.navbar2 li a:hover {
+  color:#d9d9d9;
+}
+
+
+.jumbotron{
+	background-image: url(../images/foto1.jpg);
+    margin-top: -9%;
+    height: 45em;
+   background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.jumbotron p{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+.info {
+	margin-top: 17%;
+    font-size: 3em !important;
+    font-family: 'Montserrat', sans-serif !important;
+    color: white !important;
+}
+
+/*arrow button*/
+
+.arrow {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 45%;
+}
+
+.arrow a {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.arrow a:hover .left, a:hover .top, a:hover .bottom, a:hover .right{
+  border: 0.5em solid #d9d9d9;
+}
+
+.arrow a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:after {
+  border-top: 0.5em solid #d9d9d9;
+  border-right: 0.5em solid #d9d9d9;
+}
+
+
+
+.bottom {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border: 0.5em solid white;
+  border-radius: 50%;
+  margin-left: 0.75em;
+}
+
+.bottom:after {
+  content: '';
+    display: inline-block;
+  margin-top: 0.6em;
+  width: 1.4em;
+  height: 1.4em;
+  border-top: 0.5em solid white;
+  border-right: 0.5em solid white;
+  -moz-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.titulo {
+    background-color: black;
+    width: 122%;
+    margin-top: -3%;
+    margin-left: -14%;
+     height: 45em;
+     text-align: center;
+     color: white;
+}
+
+h1 {
+ margin-top: 15%;
+    text-align: center;
+    margin-left: 4%;
+}
+
+.titulo p {
+    font-size: 1.5em;
+    font-weight: 300;
+     margin-left: 4%;
+}
+
+
+/* The Modal */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%; 
+    overflow: auto; 
+    margin-left: 25%;
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    width: 80%; 
+}
+
+#myBtn {
+    background-color: #267326;
+    border-color: #267326;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    text-align: center;
+    margin-left: 38%;
+    margin-top: -25%;
+    position: absolute;
+    padding: 1%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#myBtn:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.modal-content p{
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+.botones {
+    margin-left: 20%;
+   
+}
+
+
+.botones p {
+background-color: transparent;
+display: inline;
+width: 20%;
+padding: 3%;
+border-radius: 3px;
+border: 1px solid black;
+font-size: 1em;
+font-weight: 600;
+margin-left: 12%;
+
+]
+
+}
+
+.botones p:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+footer p {
+    text-align: center;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.foot {
+    margin-top: 2%;
+
+}
+
+.foot p:hover {
+    color: gray;
+}
+
+.copy {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7em;
+}
+
